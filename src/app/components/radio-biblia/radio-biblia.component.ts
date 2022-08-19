@@ -9,6 +9,8 @@ export class RadioBibliaComponent implements OnInit,AfterViewInit {
 
   @ViewChild('audiocheck') audio:ElementRef<HTMLAudioElement>
 
+  btnRadio:boolean= true
+
   volumen:number = 0.5;
 
   constructor() { }
@@ -22,6 +24,11 @@ export class RadioBibliaComponent implements OnInit,AfterViewInit {
 
   playRadio(){
     this.audio.nativeElement.play()
+    this.btnRadio = false
+  }
+  stopRadio(){
+    this.audio.nativeElement.pause()
+    this.btnRadio = true;
   }
 
 }

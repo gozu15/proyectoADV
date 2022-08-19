@@ -10,3 +10,8 @@
 audio{
     visibility: hidden;
 }
+#btn-detener{
+    width: 70%;
+    height: 60px;
+    margin: auto;
+}
