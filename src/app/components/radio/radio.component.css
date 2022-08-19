@@ -1,0 +1,17 @@
+.container{
+    background-color: rgba(176, 176, 176, 0);
+}
+.box-radio-principal{
+    background-color: rgb(195, 194, 194);
+}
+.title{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;   
+}
+.title p{
+    height: 100%;
+    color: rgb(27, 27, 27);
+}

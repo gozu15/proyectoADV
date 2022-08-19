@@ -24,6 +24,7 @@ import { VisionMisionComponent } from './vision-mision/vision-mision.component';
 import { CortarTextoPipe } from './pipe/cortar-texto.pipe';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { RadioComponent } from './radio/radio.component';
+import { RadioBibliaComponent } from './radio-biblia/radio-biblia.component';
 
 @NgModule({
     imports: [
@@ -52,7 +53,8 @@ import { RadioComponent } from './radio/radio.component';
         VisionMisionComponent,
         CortarTextoPipe,
         ContactanosComponent,
-        RadioComponent
+        RadioComponent,
+        RadioBibliaComponent
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]

@@ -1,0 +1,22 @@
+<section class="container">
+    <div class="row">
+        <div class="col-8 float-center m-auto">
+            <div class="row">
+                <div class="col-6">
+                    <h4>Porque el Señor dice: El que tiene oídos para oír, oiga.
+                        San Mateo 13:9
+                    </h4>
+                </div>
+                <div class="col-6">
+                    <button (click)="playRadio()" type="button" class="btn btn-danger">ESCUCHA LA BIBLIA</button> 
+                </div>
+            </div>
+            
+            
+            
+            <audio #audiocheck id="audio" controls [volume]="volumen">
+                <source type="audio/mpeg" src="http://stream.zeno.fm/tv9fg38rc0hvv"/>
+            </audio>                   
+        </div>
+    </div>
+</section>
