@@ -15,7 +15,7 @@ export class RadioBibliaComponent implements OnInit,AfterViewInit {
 
   constructor() { }
   ngAfterViewInit(): void {
-    //this.audio.nativeElement.play()
+    //this.playRadio()
   }
 
   ngOnInit(): void {
