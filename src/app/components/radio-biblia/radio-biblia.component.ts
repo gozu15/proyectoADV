@@ -5,7 +5,7 @@ import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angula
   templateUrl: './radio-biblia.component.html',
   styleUrls: ['./radio-biblia.component.css']
 })
-export class RadioBibliaComponent implements OnInit,AfterViewInit {
+export class RadioBibliaComponent implements OnInit, AfterViewInit {
 
   @ViewChild('audiocheck') audio:ElementRef<HTMLAudioElement>
 
